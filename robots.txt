@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://philo-wu.github.io/al-folio/sitemap.xml
+Sitemap: https://philo-wu.github.io/sitemap.xml
