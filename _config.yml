@@ -1,32 +1,31 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# 網站設定
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: blank # 網站標題（如果留空，將使用全名）
 first_name: WU
 middle_name: 
 last_name: Philo
 email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: > # ">" 符號表示忽略直到 "footer_text:"
+  一個簡單的空白主題，適用於學術用途。基於 [*folio](https://github.com/bogoli/-folio) 設計。
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 與 <a href="https://github.com/alshedivat/al-folio">al-folio</a> 主題提供支援。
+  托管於 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # 添加您自己的關鍵字或留空
+lang: cn # 網站語言（例如：en, fr, cn, ru, 等）
+icon: ⚛️ # 作為網站 favicon 使用的表情符號（或者，提供 /assets/img/ 中的圖像名稱）
 
-url: https://philo-wu.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+url: https://philo-wu.github.io # 您網站的基本主機名稱和協議
+baseurl:  # 您網站的子路徑，例如 /blog/。根目錄留空
+last_updated: false # 如果要在頁尾顯示最後更新日期，設置為 true
+impressum_path: # 在頁尾中包含 impressum 鏈接的路徑，使用頁面中的永久鏈接相同的路徑，有助於遵守歐盟 GDPR
 
 # -----------------------------------------------------------------------------
-# Theme
+# 主題
 # -----------------------------------------------------------------------------
 
-# repo color theme
+# 存儲庫配色主題
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
@@ -35,99 +34,98 @@ repo_trophies:
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
-# RSS Feed
+# RSS 訂閱
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+# 使用標題和 url 字段
+# 查看 https://github.com/jekyll/jekyll-feed 進行更多自定義
 
 rss_icon: true
 
 # -----------------------------------------------------------------------------
-# Layout
+# 佈局
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
 footer_fixed: true
 
-# Dimensions
+# 尺寸
 max_width: 800px
 
-# TODO: add layout settings (single page vs. multi-page)
+# TODO: 添加佈局設置（單頁面 vs 多頁面）
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+# 在社交媒體上顯示指向該頁面的鏈接，並包含預覽對象。
+# 查看 https://schema.org/docs/faq.html 了解更多信息
+serve_og_meta: false # 在 HTML head 中包含 Open Graph meta 標籤
+serve_schema_org: false # 在 HTML head 中包含 Schema.org
+og_image: # 全站（所有鏈接的默認）Open Graph 預覽圖像
 
 # -----------------------------------------------------------------------------
-# Social integration
+# 社交整合
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
-x_username: # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
-scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
-spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
-zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+gitlab_username: # 您的 GitLab 用戶名
+x_username: # 您的 X 操作手柄
+mastodon_username: # 您的 Mastodon 實例+用戶名，格式為 實例.tld/@用戶名
+linkedin_username: # 您的 LinkedIn 用戶名
+telegram_username: # 您的 Telegram 用戶名
+scholar_userid: # 您的 Google Scholar ID
+semanticscholar_id: # 您的 Semantic Scholar ID
+whatsapp_number: # 您的 WhatsApp 號碼（以國際格式提供完整電話號碼。在添加電話號碼時，省略任何零、括號或破折號。）
+orcid_id: # 您的 ORCID ID
+medium_username: # 您的 Medium 用戶名
+quora_username: # 您的 Quora 用戶名
+publons_id: # 您在 Publons 上的 ID
+lattes_id: # 您在 Lattes（巴西 Lattes 履歷）上的 ID
+osf_id: # 您的 OSF ID
+research_gate_profile: # 您在 ResearchGate 上的個人檔案
+scopus_id: # 您在 Scopus 上的個人檔案
+blogger_url: # 您的博客 URL
+work_url: # 工作頁面的 URL
+keybase_username: # 您的 Keybase 用戶名
+wikidata_id: # 您的 Wikidata ID
+wikipedia_id: # 您的 Wikipedia ID（區分大小寫）
+dblp_url: # 您的 DBLP 個人檔案 URL
+stackoverflow_id: # 您的 Stack Overflow 用戶 ID
+kaggle_id: # 您的 Kaggle 用戶 ID
+lastfm_id: # 您的 Last.fm 用戶 ID
+spotify_id: # 您的 Spotify 用戶 ID
+pinterest_id: # 您的 Pinterest 用戶 ID
+unsplash_id: # 您的 Unsplash 用戶 ID
+instagram_id: # 您的 Instagram 用戶 ID
+facebook_id: # 您的 Facebook 用戶 ID
+youtube_id: # 您的 YouTube 頻道 ID（youtube.com/@<youtube_id>）
+discord_id: # 您的 Discord ID（18 位數字的唯一標識符）
+zotero_username: # 您的 Zotero 用戶名
+wechat_qr: # 作為圖像保存的您的 WeChat QR 碼的文件名（例如，如果保存在 assets/img/wechat-qr.png，則為 wechat-qr.png）
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  您甚至可以添加一個小提示，說明這些方式中哪一種是與您聯繫的最佳途徑。
 
 # -----------------------------------------------------------------------------
-# Analytics and search engine verification
+# 分析和搜索引擎驗證
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+# 對於 Google Analytics，參見 https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+# 並按照 Google Sites 的說明操作。您需要創建一個 Google Analytics 屬性並複製 Google 標籤 ID。
+google_analytics: # 您的 Google Analytics 測量 ID（格式：G-XXXXXXXXXX）
+cronitor_analytics: # cronitor RUM analytics 站點 ID（格式：XXXXXXXXX）
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+# 對於 Google Search Console，參見 https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+google_site_verification: # 您的 google-site-verification ID（Google Search Console）
+bing_site_verification: # 您的 bing-site-verification ID（Bing Webmaster）
 
 # -----------------------------------------------------------------------------
-# Blog
+# 部落格
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: 文章 # 博客名稱將顯示在您的博客頁面上
+blog_description: 記錄各種狀況
 permalink: /blog/:year/:title/
 
-# Pagination
+# 分頁
 pagination:
   enabled: true
 
@@ -135,34 +133,34 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+# Giscus 評論（推薦）
+# 請按照 https://giscus.app/ 上的說明設置您的存儲庫，填寫下面的信息。
 giscus:
   repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  repo_id: # 留空或指定 repo_id（參見 https://giscus.app/）
+  category: Comments # 將討論創建在其中的類別名稱
+  category_id: # 留空或指定 category_id（參見 https://giscus.app/）
+  mapping: title # 通過帖子標題識別討論
+  strict: 1 # 使用嚴格的識別模式
+  reactions_enabled: 1 # 启用（1）或禁用（0）絵文字反應
+  input_position: bottom # 顯示輸入表單的位置（底部或頂部）
+  theme: preferred_color_scheme # 色彩方案的名稱（與 al-folio 亮/暗模式搭配得很好的是 preferred）
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+# Disqus 評論（已棄用）
+disqus_shortname: al-folio # 填寫您的 Disqus 短名稱
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
+# 外部來源。
+# 如果您在 medium.com 或其他外部來源上發布博客文章，
+# 您可以通過添加到 RSS 訂閱的鏈接來在博客中顯示它們。
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
-# Collections
+# 集合
 # -----------------------------------------------------------------------------
 
 collections:
@@ -177,19 +175,19 @@ collections:
 
 announcements:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: true # 如果有超過 3 個新聞項目，則添加垂直滾動條
+  limit: 5 # 留空以包含 _news 文件夾中的所有新聞
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true # 如果有超過 3 篇新文章，則添加垂直滾動條
+  limit: 3 # 留空以包含所有博客文章
 
 # -----------------------------------------------------------------------------
-# Jekyll settings
+# Jekyll 設定
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
+# Markdown 和語法高亮
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -202,7 +200,7 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
+# 包含和排除
 include: ["_pages"]
 exclude:
   - bin
@@ -224,7 +222,7 @@ keep_files:
   - CNAME
   - .nojekyll
 
-# Plug-ins
+# 插件
 plugins:
   - jekyll-archives
   - jekyll-email-protect
@@ -241,7 +239,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
+# Sitemap 設置
 defaults:
   - scope:
       path: "assets"
@@ -265,7 +263,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tags, categories] # 啟用年份、標籤和分類存檔（如果需要禁用其中之一，請刪除）
   layouts:
     year: archive-year
     tag: archive-tag
@@ -275,16 +273,16 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["格式", "圖片", "連結", "數學", "程式碼"] # 這些標籤將顯示在部落格首頁上
+display_categories: ["區塊引用"] # 這些類別將顯示在部落格首頁上
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [愛因斯坦]
+  first_name: [艾伯特, A.]
 
   style: apa
   locale: en
@@ -292,42 +290,41 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
+  # 注意：如果你的 bibtex 中有 LaTeX 數學，LaTeX 過濾器的預處理可能會與啟用 MathJAX 時產生衝突。
+  # 請參見 https://github.com/alshedivat/al-folio/issues/357。
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
   join_strings: true
 
   details_dir: bibliography
-  details_link: Details
+  details_link: 詳細資訊
 
   query: "@*"
   group_by: year
   group_order: descending
 
-# Display different badges withs stats for your publications
+# 顯示不同的徽章，顯示出刊物的統計資料
 enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric: true # Altmetric 徽章 (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: true # Dimensions 徽章 (https://badge.dimensions.ai/)
 
-# Filter out certain bibtex entry keywords used internally from the bib output
+# 從 bib 輸出中過濾掉某些內部使用的 bibtex 關鍵字
 filtered_bibtex_keywords:
   [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
 
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+# 每篇刊物最多顯示的作者數量（點擊後可看到更多作者）
+max_author_limit: 3 # 留空以始終顯示所有作者
+more_authors_animation_delay: 10 # 點擊時使用動畫逐漸顯示更多作者；較小的延遲意味著更快的動畫
 
-# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
+# 啟用刊物縮略圖。如果禁用，即使在 bib 條目中指定，也不會顯示任何刊物的縮略圖。
 enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
 
-# These are the defaults
+# 這些是預設值
 external_links:
   enabled: true
   rel: external nofollow noopener
@@ -338,10 +335,10 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+# 在啟用 imagemagick 之前，請確保已安裝 imagemagick 並將其添加到您的 PATH。在終端中運行：
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # 啟用站點的響應式圖片（建議參見 https://github.com/alshedivat/al-folio/issues/537）
   widths:
     - 480
     - 800
@@ -361,18 +358,18 @@ imagemagick:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
-enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
-enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_google_analytics: false # 啟用 Google Analytics
+enable_cronitor_analytics: false # 啟用 Cronitor 實時分析
+enable_google_verification: false # 啟用 Google 網站驗證
+enable_bing_verification: false # 啟用 Bing 網站驗證
+enable_masonry: true # 啟用自動項目卡片排列
+enable_math: true # 啟用數學排版（使用 MathJax）
+enable_tooltips: false # 啟用為每節標題在頁面和文章上生成的自動工具提示鏈接
+enable_darkmode: true # 啟用切換淺色/深色模式
+enable_navbar_social: false # 啟用在關於頁面的導航欄中顯示社交連結
+enable_project_categories: true # 啟用將項目分類為多個類別
+enable_medium_zoom: true # 啟用圖片縮放功能（與 medium.com 類似）
+enable_progressbar: true # 啟用與垂直滾動位置相連的水平進度條
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -403,7 +400,7 @@ medium_zoom:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume.json # 也可以是一個網址
 jsonresume:
   - basics
   - work

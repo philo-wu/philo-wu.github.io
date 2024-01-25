@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: 專案
+permalink: /projects-cn/
 description: 參與過的專案.
 nav: true
-nav_order: 3
+nav_order: 7
 display_categories: [work, fun]
 horizontal: false
 ---
