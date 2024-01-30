@@ -8,7 +8,7 @@ middle_name:
 last_name: Philo
 email: you@example.com
 description: > # ">" 符號表示忽略直到 "footer_text:"
-  一個簡單的空白主題，適用於學術用途。基於 [*folio](https://github.com/bogoli/-folio) 設計。
+  一個伺服器工程師的歷程。
 footer_text: >
   由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 與 <a href="https://github.com/alshedivat/al-folio">al-folio</a> 主題提供支援。
   托管於 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
@@ -66,7 +66,7 @@ og_image: # 全站（所有鏈接的默認）Open Graph 預覽圖像
 # 社交整合
 # -----------------------------------------------------------------------------
 
-gitlab_username: # 您的 GitLab 用戶名
+gitlab_username: philo-wu# 您的 GitLab 用戶名
 x_username: # 您的 X 操作手柄
 mastodon_username: # 您的 Mastodon 實例+用戶名，格式為 實例.tld/@用戶名
 linkedin_username: # 您的 LinkedIn 用戶名
@@ -146,7 +146,7 @@ giscus:
   input_position: bottom # 顯示輸入表單的位置（底部或頂部）
   theme: preferred_color_scheme # 色彩方案的名稱（與 al-folio 亮/暗模式搭配得很好的是 preferred）
   emit_metadata: 0
-  lang: en
+  lang: cn
 
 # Disqus 評論（已棄用）
 disqus_shortname: al-folio # 填寫您的 Disqus 短名稱
@@ -208,10 +208,8 @@ exclude:
   - CUSTOMIZE.md
   - docker-compose.yml
   - Dockerfile
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
   - package.json
   - package-lock.json
@@ -281,8 +279,8 @@ display_categories: ["區塊引用"] # 這些類別將顯示在部落格首頁�
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [愛因斯坦]
-  first_name: [艾伯特, A.]
+  last_name: [JIA ZHE]
+  first_name: [WU]
 
   style: apa
   locale: en
@@ -305,9 +303,9 @@ scholar:
   group_order: descending
 
 # 顯示不同的徽章，顯示出刊物的統計資料
-enable_publication_badges:
-  altmetric: true # Altmetric 徽章 (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions 徽章 (https://badge.dimensions.ai/)
+# enable_publication_badges:
+  # altmetric: true # Altmetric 徽章 (https://www.altmetric.com/products/altmetric-badges/)
+  # dimensions: true # Dimensions 徽章 (https://badge.dimensions.ai/)
 
 # 從 bib 輸出中過濾掉某些內部使用的 bibtex 關鍵字
 filtered_bibtex_keywords:
@@ -318,7 +316,7 @@ max_author_limit: 3 # 留空以始終顯示所有作者
 more_authors_animation_delay: 10 # 點擊時使用動畫逐漸顯示更多作者；較小的延遲意味著更快的動畫
 
 # 啟用刊物縮略圖。如果禁用，即使在 bib 條目中指定，也不會顯示任何刊物的縮略圖。
-enable_publication_thumbnails: true
+# enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes

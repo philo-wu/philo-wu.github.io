@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: mud_server
 description: another without an image
 img:
 importance: 3

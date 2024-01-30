@@ -22,52 +22,51 @@
       }
     ]
   },
-  "work": [
+  "work1": [
     {
-      "name": "伺服器工程師",
+      "name": "Server Engineer",
       "position": "火龍數位科技遊戲有限公司",
       "url": "https://www.firedragon.com.tw/",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2023-09-30",
+      "summary": "This work involves the development and maintenance of mobile game servers using C++ in the Visual Studio 2022 environment along with the QT 5.15 framework. The focus is on creating and managing server-side components for mobile gaming applications.",
+      "highlights": ["C++","C#","VS+QT","Server","Windows"]
     },
     {
-      "name": "C++工程師",
+      "name": "C++ Engineer",
       "position": "富啟科技有限公司",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2023-07-10",
+      "endDate": "2023-09-29",
+      "summary": "Utilize BCB 6 to Modify POS System.Assist customers in understanding the POS system, gather feedback, and relay it to the technical team. Set up POS products.",
+      "highlights": ["POS","C++","\"Junior\" Product Manager"]
     },
     {
-      "name": "工程師",
+      "name": "Engineer",
       "position": "元照智能股份有限公司",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-18",
+      "summary": "This project involves crafting the overall architecture of user interface (UI) elements for medical devices using C++ in a Linux operating system environment with the Qt framework. Additionally, it includes the implementation of a backend system utilizing RTI_DDS (Real-Time Innovations Data Distribution Service).",
+      "highlights": ["C++","Linux","QT","RTI"]
     },
     {
-      "name": "工程師",
+      "name": "Engineer",
       "position": "豐揚科技股份有限公司",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2022-10-01",
+      "endDate": "2023-01-31",
+      "summary": "This project involves crafting the overall architecture of user interface (UI) elements for medical devices using C++ in a Linux operating system environment with the Qt framework. Additionally, it includes the implementation of a backend system utilizing RTI_DDS (Real-Time Innovations Data Distribution Service).",
+      "highlights": ["C++","Linux","QT","RTI"]
     }
   ],
   "education": [
     {
-      "institution": "東吳大學, 台北台灣, 中華民國",
-      "location": "台北台灣,中華民國",
-      "url": "https://www.uzh.ch/",
-      "area": "數學",
-      "studyType": "學士",
+      "institution": "Soochow University, Taipei Taiwan, ROC",
+      "location": "Taipei Taiwan, ROC",
+      "url": "http://www.math.scu.edu.tw/",
+      "area": "Math",
+      "studyType": "BS",
       "startDate": "2015-09-01",
       "endDate": "2020-01-30",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Advanced Calculus","Statistics","Algebra","Cryptography"]
     }
   ],
   "awards": [
@@ -125,35 +124,8 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Programming proficiency",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "英文",
-      "fluency": "Average",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "程式語言",
-      "icon": "fa-solid fa-tag",
       "keywords": [
         "C++",
         "C#",
@@ -162,7 +134,7 @@
     },
     {
       "name": "CI/CD",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Jenkins",
         "Git",
@@ -170,16 +142,28 @@
       ]
     }
   ],
-  "references": [
+  "languages": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "Chinese",
+      "fluency": "Native speaker",
+      "icon": ""
     },
     {
-      "name": "Professor John Doe",
+      "language": "English",
+      "fluency": "Average",
+      "icon": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "nobady",
+      "icon": "fa-solid fa-laptop",
+      "reference": ""
+    },
+    {
+      "name": "nobady",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": ""
     }
   ],
   "projects": [
